@@ -4,9 +4,12 @@ body {
 
 /* Hero Section */
 
-header#hero-section 
-{     background-color: blue;
-      color: white;
+ #hero-section 
+{     
+  
+  background: rgb(4,1,15);
+  background: linear-gradient(90deg, rgba(4,1,15,1) 0%, rgba(2,6,11,0.9724264705882353) 35%, rgba(0,0,0,1) 100%);
+  color: white;
 }
 
 /* Mis trabajos */
