@@ -2,32 +2,28 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-html{
-  scroll-behavior: smooth;
+/* Hero Section */
+
+header#hero-section 
+{     background-color: blue;
+      color: white;
 }
 
+/* Mis trabajos */
 
-
-#hero-section {
-  background-color: black;
-  color: white;
- 
-}
-
-.container{
-  background-color: black;
-}
-
-
-#Trabajos .image-top{
+#Mis-trabajos .image-top {
   height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
+/* Contacto */
 
-
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
 
 @media (max-width: 768px) {
   #Contacto form label {
