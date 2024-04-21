@@ -1,0 +1,41 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+#hero-section {
+  background-color: black;
+  color: white;
+ 
+}
+
+.container{
+  background-color: black;
+}
+
+
+#Trabajos .image-top{
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
